@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,600&family=Inconsolata:wght@200;300&family=Poppins:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap');
+
+body {
+    font-family: 'Croissant One', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    --text-color: #314D4A;
+    --primary-text-color: #646D6C;
+    --primary-color: #0A8270;
+    --bg-color: #F6F3EB;
+    --number-font-color: #FFF;
+    font-size: 62.5%;
+    --footer-bc-color: #F6F3EB;
+    --box-shadow:0px 17px 40px 0px rgba(0, 0, 0, 0.20);
+    font-size: 62.5%;
+
+}
+
+.container {
+    max-width: 1147px;
+    margin: auto;
+    height: 100%;
+    /* background-color: #0A8270; */
+
+
+
+}
+
+.navigation{
+    padding-bottom: 70px ;
+}
+
+header {
+    background-color: var(--bg-color);
+    /* width: 1440px; */
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-size: 6rem;
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    width: 450px;
+}
+
+.primary-btn {
+    padding: 7px 14px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.process-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 20px;
+
+}
+
+.process-work p {
+    width: 400px;
+    text-align: center;
+}
+
+.bx {
+    font-size: 6rem;
+    color: var(--text-color);
+    padding: 50px;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 150px 0;
+}
+
+.contact {
+    width: 400px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.8rem;
+    padding-bottom: 15px 0;
+}
+
+.contact p {
+    font-size: 1.6rem;
+}
+
+/* .contact-section {
+    height: 515px;
+} */
+
+.main-project-color {
+    background-color: var(--bg-color);
+}
+
+.project-flex {
+    display: flex;
+    justify-content: space-between;
+    justify-self: ;
+
+
+}
+
+.project {
+    width: 470px;
+}
+
+.see-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 70px 0;
+}
+
+.project-content {
+    width: 450px;
+}
+
+.review-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review {
+    width: 300px;
+    transition: all 0.5s linear;
+}
+
+.review:hover{
+    border: 1px solid red;
+    padding: 10px;
+    transform: scale(1.2);
+    box-shadow: var(--box-shadow);
+}
+
+.review p {
+    font-size: 1.2rem;
+}
+
+.review h2 {
+    font-size: 1.4rem;
+}
+
+.counter-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+    align-items: center;
+    /* margin: 80px; */
+}
+
+.counter h2 {
+    color: var(--number-font-color);
+}
+
+.counter p {
+    color: var(--number-font-color);
+    padding: 0;
+
+}
+
+.client-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.client {
+    width: 450px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.read-flex {
+    display: flex;
+    justify-content: center;
+}
+.read{
+    margin: 60px 0;
+}
+
+.read h2 {
+    font-size: 1rem;
+}
+
+.counter-color {
+    background-color: var(--primary-color);
+    margin: 140px 0;
+}
+
+.from-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.from-content {
+    width: 420px;
+}
+
+.contact-sms-call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 35px;
+}
+
+.contact-sms-call p {
+    padding: 0;
+    color: var(--number-font-color);
+}
+
+.bx-2 {
+    font-size: 2rem;
+    padding: 5px;
+    color: var(--number-font-color);
+}
+
+.contact-sms {
+    padding: 8px 10px;
+    background-color: var(--primary-color);
+    color: var(--number-font-color);
+    display: inline-block;
+}
+
+.foot-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-fotter {
+    background-color: var(--bg-color);
+    margin-top: 100px;
+}
+
+.from-wraper {
+    margin: 150px 0;
+}
+
+a {
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+
+
+}
+
+.box-1 {
+    flex-grow: 5;
+}
+
+.box-2 {
+    flex-grow: 2;
+}
+
+/* a:hover {
+    color: red;
+    font-size: 2.8rem;
+    background-color: pink;
+} */
+.from-flex input{
+    width: 400px;
+    height:40px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+@media (max-width: 540px)
+{
+    header{
+        /* background-color: black; */
+
+    }
+    .head nav{
+        display: none;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-image{
+        order: 1;
+        max-width: 400px;
+    }
+    .hero-content{
+        order: 2;
+        /* width: 200px; */
+    }
+    .hero-content h1{
+        font-size: 2.8rem;
+    }
+    .hero-content p{
+        font-size: 1rem;
+    }
+    .primary-btn{
+        padding: 5px 8pxpx;
+        background-color: rgb(65, 5, 5);
+        font-size: 1rem;
+    }
+   .contact-flex{
+    flex-direction: column;
+
+   }
+   .contact{
+    padding: 0 30px;
+   }
+  
+   .project-flex{
+    flex-direction: column;
+    align-items: center;
+    
+    
+   }
+   
+
+
+   .counter-flex{
+    flex-wrap: wrap;
+   }
+.review-flex{
+    flex-wrap: wrap;
+}
+.from-flex{
+    flex-direction: column;
+    gap: 40px;
+}
+.foot-flex{
+    gap: 30px;
+}
+.read-flex{
+    padding: 0;
+    margin: 0;
+}
+.from-flex{
+    margin: 0;
+    padding: 0;
+}
+}
